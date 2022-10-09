@@ -1,14 +1,20 @@
 import { createStore } from 'vuex'
+import tasks from './modules/tasks'
+import alert from './modules/alert'
 
 export default createStore({
-  state: {
+  state () {
+    return {
+      isLoading: false
+    }
   },
   getters: {
-  },
-  mutations: {
-  },
-  actions: {
+    getIsLoading (state) {
+      return state.isLoading
+    }
   },
   modules: {
+    tasks,
+    alert
   }
 })

@@ -1,5 +1,8 @@
 # vue-pet-freelance-ex
 
+## Deploy
+See https://vue-pet-freelance-ex.web.app
+
 ## Project setup
 ```
 npm install
